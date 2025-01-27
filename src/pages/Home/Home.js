@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-// import ChooseArea from './ChooseArea'
-import SpecialityArea from './SpecialityArea'
-import TestimonialsArea from './TestimonialsArea'
+import ServicesArea from "./ServicesArea";
+import ChooseArea from "./ChooseArea";
 import TransportationArea from './TransportationArea'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 
 const HeroSlider = () => {
   const slides = [
@@ -45,7 +45,7 @@ const HeroSlider = () => {
   };
 
   return (
-    <div className="hero-slider">
+    <div className="hero-slider owl-carousel owl-theme">
       <Slider {...sliderSettings}>
         {slides.map((slide) => (
           <div key={slide.id} className={`hero-slider-item ${slide.bgClass}`}>
@@ -73,73 +73,12 @@ const HeroSlider = () => {
   );
 };
 
-const ServicesArea = () => {
-  const services = [
-    {
-      id: 1,
-      icon: "bxs-ship",
-      title: "Ocean Cargo",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
-    },
-    {
-      id: 2,
-      icon: "bx-store",
-      title: "Cargo Storage",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
-    },
-    {
-      id: 3,
-      icon: "bxs-truck",
-      title: "Courier Delivery",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
-    },
-    {
-      id: 4,
-      icon: "bx-transfer",
-      title: "B2B Exchange",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
-    },
-  ];
-
-  return (
-    <div className="services-area ptb-100">
-      <div className="container">
-        <div className="section-title">
-          <span>Our Services</span>
-          <h2>Safe and Faster Logistic Services</h2>
-        </div>
-        <div className="row">
-          {services.map((service) => (
-            <div key={service.id} className="col-lg-3 col-sm-6">
-              <div className="service-card">
-                <i className={`bx ${service.icon}`}></i>
-                <h3>{service.title}</h3>
-                <p>{service.description}</p>
-                <Link to="/service-details" className="default-btn-two">
-                  Read More
-                </Link>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-};
-
-
 const HomePage = () => {
   return (
     <>
       <HeroSlider />
       <ServicesArea />
-      {/* <ChooseArea/> */}
-      <SpecialityArea/>
-      <TestimonialsArea/>
+       <ChooseArea />
       <TransportationArea/>
     </>
   );

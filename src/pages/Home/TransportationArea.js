@@ -35,7 +35,6 @@ const TransportationArea = () => {
               <div className="transportation-shape">
                 <img src={shape3} alt="icon" />
               </div>
-
               <form onSubmit={handleSubmit}>
                 <div className="form-group">
                   <input

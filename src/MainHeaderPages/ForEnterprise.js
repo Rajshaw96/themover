@@ -61,7 +61,7 @@ const slideContainerStyle = {
   position: 'relative',
   width: '100%',
   overflow: 'hidden',
-  marginTop:'70px'
+  marginTop:'120px'
 
 };
 
