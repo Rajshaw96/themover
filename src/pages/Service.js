@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import ServiceImg1 from '../assets/img/services/services1.jpg'
-import ServiceImg2 from '../assets/img/services/services2.jpg'
-import ServiceImg3 from '../assets/img/services/services3.jpg'
-import ServiceImg7 from '../assets/img/services/services7.jpg'
+import ServiceImg1 from '../assets/img/services/gallery-5.png'
+import ServiceImg2 from '../assets/img/services/gallery-6.png'
+import ServiceImg3 from '../assets/img/services/gallery-9.png'
+import ServiceImg7 from '../assets/img/services/gallery-10.jpg'
 const ServicesPage = () => {
     return (
         <>
@@ -31,7 +31,7 @@ const ServicesPage = () => {
                 <div className="container">
                     <div className="section-title">
                         <span>Our Services</span>
-                        <h2>Safe, Faster and Reliable Logistics Services</h2>
+                        <h2>Delivering Safety, Speed, and Reliability Your Trusted Logistics Partner.</h2>
                     </div>
 
                     <div className="row">

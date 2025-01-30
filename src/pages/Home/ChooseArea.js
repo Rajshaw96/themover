@@ -1,7 +1,7 @@
 import React from "react";
-import Shape2 from "../../assets/img/shape/shape2.png";
-import Shape5 from "../../assets/img/shape/shape5.png";
-
+// import Shape2 from "../../assets/img/shape/shape2.png";
+// import Shape5 from "../../assets/img/shape/shape5.png";
+import { Link } from "react-router-dom";
 
 
 const ChooseArea = () => {
@@ -81,10 +81,9 @@ const ChooseArea = () => {
                   consequuntur magni dolores eos qui ratione voluptatem sequi
                   nesciunt.
                 </p>
-
-                <a href="#" className="default-btn-one">
-                  Contact Us
-                </a>
+                  <Link to="#" className="default-btn-one">Contact Us</Link>
+              
+                
                 <div className="shape-image">
                   <img src="assets/img/shape/shape2.png" alt="icon" />
                 </div>

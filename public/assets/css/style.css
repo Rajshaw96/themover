@@ -272,7 +272,118 @@ Top Heder
   background: #b10d6b;
   color: #ffffff;
 }
+/* ---------------------- */
+/* General Styles */
+.header-area {
+  background: #ffffff;
+  border-bottom: 1px solid #eaeaea;
+  padding: 10px 0;
+}
 
+.top-header {
+  background: #f8f9fa;
+  padding: 10px 0;
+}
+
+.left-info,
+.right-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.left-info li,
+.right-info li {
+  margin-right: 20px;
+}
+
+.left-info a,
+.right-info a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.right-info a i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+/* Navbar Styles */
+.navbar-area {
+  background: #ffffff;
+  padding: 15px 0;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 16px;
+  color: #333;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+  .top-header .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left-info,
+  .right-info {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .navbar-area .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .left-info,
+  .right-info {
+    flex-direction: column;
+  }
+
+  .left-info li,
+  .right-info li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar-brand img {
+    height: 40px;
+  }
+}
+
+/* --------------------- */
 /*================================================
 Navbar Area
 =================================================*/
@@ -903,13 +1014,13 @@ Hero Slider Area
   z-index: -1;
 }
 .hero-slider .hero-slider-item.item-bg1 {
-  background-image: url("../img/hero-slider/hero-slider1.jpg");
+  background-image: url("../../../src/assets/img/hero-slider/beenar-1.avif");
 }
 .hero-slider .hero-slider-item.item-bg2 {
-  background-image: url("../img/hero-slider/hero-slider2.jpg");
+  background-image: url("../../../src/assets/img/hero-slider/beenar-2.avif");
 }
 .hero-slider .hero-slider-item.item-bg3 {
-  background-image: url("../img/hero-slider/hero-slider3.jpg");
+  background-image: url("../../../src/assets/img/hero-slider/beenar-3.avif");
 }
 .hero-slider .banner-content {
   position: relative;
@@ -998,7 +1109,10 @@ Hero Slider Two Area
 .hero-slider-two .hero-slider-two-item .banner-content h1 {
   color: #ffffff;
   font-size: 50px;
-  line-height: 1.4;
+  line-height: 1;
+  margin-bottom: 5px;
+  margin-top: 50px;
+  margin-left: -45px;
 }
 .hero-slider-two .hero-slider-two-item .banner-content p {
   color: #e0e0e1;
@@ -2678,7 +2792,7 @@ Shipmante Area
   position: absolute;
 }
 .shipmante-area.shipmante-area-bg {
-  background-image: url("../img/shipmante-bg1.jpg");
+  background-image: url("../img/page-banner/gallery-4.png");
 }
 .shipmante-area .shipmante-text {
   position: relative;
@@ -3073,13 +3187,13 @@ Page banner Area
   text-align: center;
 }
 .page-banner.bg-1 {
-  background-image: url("../img/page-banner/banner1.jpg");
+  background-image: url("../img/page-banner/gallery-4.png");
 }
 .page-banner.bg-2 {
-  background-image: url("../img/page-banner/banner2.jpg");
+  background-image: url("../img/page-banner/gallery-6.png");
 }
 .page-banner.bg-3 {
-  background-image: url("../img/page-banner/banner3.jpg");
+  background-image: url("../img/page-banner/gallery-9.png");
 }
 .page-banner .page-content {
   margin-top: 115px;

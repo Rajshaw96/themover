@@ -95,9 +95,9 @@ const TransportationArea = () => {
                   <button type="submit" className="default-btn-one me-4">
                     Cost Calculate
                   </button>
-                  <button type="submit" className="default-btn-two">
+                  {/* <button type="submit" className="default-btn-two">
                     Get A Full Quote
-                  </button>
+                  </button> */}
                 </div>
                 <h3>Get a brochure / 10% Discount on first order</h3>
               </form>
@@ -110,9 +110,9 @@ const TransportationArea = () => {
                 <div className="d-table-cell">
                   <div className="video-btn">
                     <a
-                      href="https://www.youtube.com/watch?v=bk7McNUjWgw"
+                      href="https://youtu.be/p10x4nxuA-s?si=46xmLZt3iDypgGHU"
                       className="popup-youtube"
-                    >
+                    target="_blank">
                       <i className="bx bx-play whiteText"></i>
                       <span className="ripple pinkBg"></span>
                       <span className="ripple pinkBg"></span>

@@ -19,22 +19,11 @@ const Footer = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="footer-widget">
                 <div className="logo">
-                  <img
-                    src={themoverLogo}
-                    className="main-logo"
-                    alt="Themover Logo"
-                  />
-                  <img
-                    src={themoverLogo}
-                    className="white-logo"
-                    alt="The Mover White Logo"
-                  />
+                  <img src={themoverLogo} className="main-logo" alt="Themover Logo" />
+                  <img src={themoverLogo} className="white-logo" alt="The Mover White Logo" />
                 </div>
-                <p> This is Test
-                  At TheMover, we are committed to making your moving and parcel
-                  delivery experience seamless and hassle-free. Whether you need
-                  assistance with local shifting, packing and moving, or
-                  reliable parcel services.
+                <p>
+                  At TheMover, we are committed to making your moving and parcel delivery experience seamless and hassle-free.
                 </p>
               </div>
             </div>
@@ -69,45 +58,17 @@ const Footer = () => {
               <div className="footer-widget">
                 <h3>Contact Info</h3>
                 <ul className="info-list">
-                  <li>
-                    <i className="bx bxs-location-plus"></i>
-                    Sector 39, Gurugram, Haryana 122002
-                  </li>
-                  <li>
-                    <i className="bx bxs-envelope"></i>
-                    <a href="mailto:info@themover.in">info@themover.in</a>
-                  </li>
-                  <li>
-                    <i className="bx bxs-envelope"></i>
-                    <a href="mailto:support@themover.in">support@themover.in</a>
-                  </li>
-                  <li>
-                    <i className="bx bxs-phone"></i>
-                    <a href="tel:+919136369036">+91 91363 69036</a>
-                  </li>
+                  <li><i className="bx bxs-location-plus"></i> Sector 39, Gurugram, Haryana 122002</li>
+                  <li><i className="bx bxs-envelope"></i> <a href="mailto:info@themover.in">info@themover.in</a></li>
+                  <li><i className="bx bxs-envelope"></i> <a href="mailto:support@themover.in">support@themover.in</a></li>
+                  <li><i className="bx bxs-phone"></i> <a href="tel:+919136369036">+91 91363 69036</a></li>
                 </ul>
                 
                 <ul className="footer-socials">
-                  <li>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                      <i className="bx bxl-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                      <i className="bx bxl-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                      <i className="bx bxl-linkedin"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                      <i className="bx bxl-instagram"></i>
-                    </a>
-                  </li>
+                  <li><Link to="#" onClick={(e) => e.preventDefault()}><i className="bx bxl-facebook"></i></Link></li>
+                  <li><Link to="#" onClick={(e) => e.preventDefault()}><i className="bx bxl-twitter"></i></Link></li>
+                  <li><Link to="#" onClick={(e) => e.preventDefault()}><i className="bx bxl-linkedin"></i></Link></li>
+                  <li><Link to="#" onClick={(e) => e.preventDefault()}><i className="bx bxl-instagram"></i></Link></li>
                 </ul>
               </div>
             </div>
@@ -118,14 +79,8 @@ const Footer = () => {
       <div className="footer-bottom">
         <div className="container">
           <p>
-            Copyright 2025. All Rights Reserved{" "}
-            <a
-              href="https://themover.in/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Themover
-            </a>
+            Copyright 2025. All Rights Reserved 
+            <a href="https://themover.in/" target="_blank" rel="noopener noreferrer">Themover</a>
           </p>
         </div>
       </div>

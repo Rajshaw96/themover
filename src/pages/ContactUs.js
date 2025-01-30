@@ -1,9 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ContactUs = () => {
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        toast.success('Message sent successfully!');
+    };
+
     return (
         <div>
+            <ToastContainer />
             {/* Page Banner Area */}
             <div className="page-banner bg-1">
                 <div className="d-table">
@@ -68,7 +76,7 @@ const ContactUs = () => {
                     </div>
 
                     <div className="contact-form">
-                        <form id="contactForm">
+                        <form id="contactForm" onSubmit={handleSubmit}>
                             <div className="row">
                                 {/* Name Input */}
                                 <div className="col-md-6">
@@ -154,38 +162,6 @@ const ContactUs = () => {
                 </div>
             </div>
             {/* End Contact Form Area */}
-
-            {/* Newsletter Area */}
-            <div className="newsletter-area">
-                <div className="container">
-                    <div className="newsletter-content">
-                        <div className="row align-items-center">
-                            <div className="col-lg-5">
-                                <div className="newsletter-title">
-                                    <h3>Subscribe to our newsletter:</h3>
-                                    <p>Focused on the transport and logistic industry</p>
-                                </div>
-                            </div>
-                            <div className="col-lg-7">
-                                <form className="newsletter-form">
-                                    <input
-                                        type="email"
-                                        className="form-control"
-                                        placeholder="Enter your email"
-                                        name="EMAIL"
-                                        required
-                                        autoComplete="off"
-                                    />
-                                    <button type="submit" className="btn btn-primary">
-                                        Subscribe
-                                    </button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/* End Newsletter Area */}
         </div>
     );
 };

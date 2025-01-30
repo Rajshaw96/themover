@@ -1,6 +1,7 @@
 import React from 'react';
-import Shipping from '../assets/img/speciality/speciality2.jpg'
-import Blog from '../assets/img/blog/blog7.jpg'
+import Shipping1 from '../assets/img/speciality/gallery-15.jpeg'
+import Shipping2 from '../assets/img/speciality/gallery-13.jpeg'
+
 const AboutUs = () => {
   return (
     <>
@@ -33,21 +34,10 @@ const AboutUs = () => {
                 <p>Our services range from <strong>local shifting</strong> to <strong>comprehensive packing and moving</strong>, as well as a dependable <strong>parcel service</strong> that ensures your packages are delivered on time, every time.</p>
                 <p>Whether it’s local moves, packers and movers services, or parcel deliveries, TheMover continues to set the benchmark for digital shipping excellence. Trust us to deliver your packages on time, every time – because we’ve been doing it right since 1998!</p>
               </div>
-
-              {/* <div className="shipping-card">
-                <div className="shipping-contant">
-                  <div className="shipping-image">
-                    <img src={img1} alt="John Doe" />
-                  </div>
-                  <h3>John Doe</h3>
-                  <span>CEO, Ferry</span>
-                  <p>Nor again is there anyone who loves or pursues or desires to.</p>
-                </div>
-              </div> */}
             </div>
             <div className="col-lg-6">
               <div className="safe-image">
-                <img src={Shipping}alt="Shipping" />
+                <img src={Shipping1}alt="Shipping" />
               </div>
             </div>
           </div>
@@ -93,7 +83,7 @@ const AboutUs = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="digital-image">
-                  <img src={Blog} alt="Digital Shipping" />
+                  <img src={Shipping2} alt="Digital Shipping" />
                 </div>
               </div>
 

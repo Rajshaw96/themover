@@ -2,21 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import themoverLogo from "../assets/img/themover-logo.png";
 
-
 const Header = () => {
   return (
     <header className="header-area">
       <div className="top-header">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-6 col-sm-6">
+            <div className="col-lg-6 col-sm-6 ">
               <ul className="left-info">
                 <li>
-                  <a
-                    href="mailto:support@themover.in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href="mailto:support@themover.in" target="_blank" rel="noopener noreferrer">
                     <i className="bx bxs-envelope"></i>
                     support@themover.in
                   </a>
@@ -30,34 +25,33 @@ const Header = () => {
               </ul>
             </div>
 
-            <div className="col-lg-6 col-sm-6">
+            <div className="col-lg-6 col-sm-6 ">
               <ul className="right-info">
-                <li className="mr-20">
-                  <Link to="/for-enterprise">For Enterprise</Link>
+                <li className="">
+                  <Link to="/become-partner">Become A Partner</Link>
                 </li>
-                <li className="mr-20">
-                  <Link to="/delivery-partners">Delivery Partners</Link>
-                </li>
-                <li className="mr-20">
-                  <Link to="/contact-us">Support</Link>
+                <li className="">
+                  <a href="https://portal.themover.in/" target="_blank" rel="noopener noreferrer">
+                         Login
+                  </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                     <i className="bx bxl-facebook"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
                     <i className="bx bxl-twitter"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                     <i className="bx bxl-linkedin"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                     <i className="bx bxl-instagram"></i>
                   </a>
                 </li>
@@ -73,7 +67,7 @@ const Header = () => {
           <div className="container">
             <div className="ferry-responsive-menu">
               <div className="logo">
-                <Link to="index.html">
+                <Link to="/">
                   <img src={themoverLogo} className="main-logo" alt="logo" />
                   <img src={themoverLogo} className="white-logo" alt="logo" />
                 </Link>
@@ -85,7 +79,7 @@ const Header = () => {
         <div className="ferry-nav">
           <div className="container">
             <nav className="navbar navbar-expand-md navbar-light">
-              <Link className="navbar-brand" to="index.html">
+              <Link className="navbar-brand" to="/">
                 <img src={themoverLogo} className="main-logo" alt="logo" />
                 <img src={themoverLogo} className="white-logo" alt="logo" />
               </Link>
@@ -93,7 +87,7 @@ const Header = () => {
               <div className="collapse navbar-collapse mean-menu">
                 <ul className="navbar-nav ms-auto">
                   <li className="nav-item">
-                    <Link to="/" className="nav-link active">
+                    <Link to="/" className="nav-link">
                       Home
                     </Link>
                   </li>
@@ -110,14 +104,10 @@ const Header = () => {
                     </Link>
                   </li>
 
-                  {/* <li className="nav-item">
-                    <Link to="/blog" className="nav-link">
-                      Blog
-                    </Link>
-                  </li> */}
-
                   <li className="nav-item">
-                    <Link to="/contact-us" className="nav-link">Contact Us</Link>
+                    <Link to="/contact-us" className="nav-link">
+                      Contact Us
+                    </Link>
                   </li>
                 </ul>
               </div>

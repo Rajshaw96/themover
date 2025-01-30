@@ -6,6 +6,7 @@ import BlogImg4 from "../assets/img/blog/blog12.jpg";
 import BlogImg5 from "../assets/img/blog/blog13.jpg";
 import BlogImg6 from "../assets/img/blog/blog10.jpg";
 import { Link } from 'react-router-dom';
+
 // PageBanner Component
 const PageBanner = ({ title, breadcrumb }) => (
   <div className="page-banner bg-3">
@@ -16,7 +17,7 @@ const PageBanner = ({ title, breadcrumb }) => (
             <h2>{title}</h2>
             <ul>
               <li>
-               <Link to="/">Home</Link>
+                <Link to="/">Home</Link>
               </li>
               <li>{breadcrumb}</li>
             </ul>
@@ -31,19 +32,19 @@ const PageBanner = ({ title, breadcrumb }) => (
 const BlogCard = ({ image, category, date, title, description, link }) => (
   <div className="col-lg-4 col-md-6">
     <div className="blog-card">
-      <a className="blog-image" href={link}>
+      <Link className="blog-image" to={link || "#"}> {/* Use Link for internal routing */}
         <img src={image} alt="blog" />
-      </a>
+      </Link>
       <div className="blog-text">
         <span className="meta-tag">{category}</span>
         <div className="date">{date}</div>
         <h3>
-          <a href={link}>{title}</a>
+          <Link to={link || "#"}>{title}</Link> {/* Use Link for internal routing */}
         </h3>
         <p className="mb-20">{description}</p>
-        <a href={link} className="default-btn-two">
+        <Link to={link || "#"} className="default-btn-two"> {/* Use Link for internal routing */}
           Read More
-        </a>
+        </Link>
       </div>
     </div>
   </div>
@@ -54,29 +55,29 @@ const Pagination = () => (
   <div className="col-lg-12 col-md-12">
     <ul className="pagination">
       <li className="page-item">
-        <a className="page-link" href="#" aria-label="Previous">
+        <Link className="page-link" to="#" aria-label="Previous"> {/* Use Link for internal navigation */}
           <span aria-hidden="true">&laquo;</span>
-        </a>
+        </Link>
       </li>
       <li className="page-item active">
-        <a className="page-link" href="#">
+        <Link className="page-link" to="#"> {/* Use Link for internal navigation */}
           1
-        </a>
+        </Link>
       </li>
       <li className="page-item">
-        <a className="page-link" href="#">
+        <Link className="page-link" to="#"> {/* Use Link for internal navigation */}
           2
-        </a>
+        </Link>
       </li>
       <li className="page-item">
-        <a className="page-link" href="#">
+        <Link className="page-link" to="#"> {/* Use Link for internal navigation */}
           3
-        </a>
+        </Link>
       </li>
       <li className="page-item">
-        <a className="page-link" href="#" aria-label="Next">
+        <Link className="page-link" to="#" aria-label="Next"> {/* Use Link for internal navigation */}
           <span aria-hidden="true">&raquo;</span>
-        </a>
+        </Link>
       </li>
     </ul>
   </div>
