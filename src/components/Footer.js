@@ -9,7 +9,7 @@ import "../assets/css/style.css";
 import "../assets/css/meanmenu.min.css";
 import "../assets/css/magnific-popup.min.css";
 import themoverLogo from "../assets/img/themover-logo.png";
-
+import "./Footer.css";
 const Footer = () => {
   return (
     <>

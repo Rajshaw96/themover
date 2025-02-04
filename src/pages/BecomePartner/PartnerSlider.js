@@ -28,7 +28,7 @@ const PartnerSlider = () => {
   };
 
   return (
-    <div className="partner-area pb-100">
+    <div className="partner-area pt-5 pb-5">
       <div className="container">
         <div className="section-title">
           <span>Partner</span>

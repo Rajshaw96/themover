@@ -86,10 +86,11 @@
         @media (max-width: 768px) {
           .stats-container {
             gap: 15px;
+            flex-direction: column;
           }
         
           .stat-card {
-            width: 160px;
+            width: 100%;
           }
         
           .icon {

@@ -362,9 +362,27 @@ Top Heder
 .top-header .social-icons a:hover {
   color: #f01b9b;
 }
-
+@media screen and (max-width: 1024px){
+  .manish{
+    margin-left: 0px !important;
+    margin-top: 125px !important;
+    margin-bottom: 50px !important;
+  }
+}
 
 @media (max-width: 768px) {
+  .service-card{
+    margin-bottom: 0px !important;
+  }
+  .digital-area .digital-card-contant .digital-card {
+    padding: 20px !important;
+  }
+  .digital-area .digital-card-contant .digital-card .card-text h3{
+    text-align: left;
+  }
+  .digital-area .digital-card-contant .digital-card .card-text p{
+    text-align: left;
+  }
   .top-header .left-info,
   .top-header .right-info,
   .top-header .social-icons {
@@ -406,6 +424,7 @@ Navbar Area
   width: 100%;
   height: auto;
   z-index: 999;
+  box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
 }
 .navbar-area.is-sticky {
   position: fixed;
@@ -727,12 +746,10 @@ Navbar Area
 @media only screen and (max-width: 991px) {
   .navbar-area {
     background-color: #ffffff;
-    padding-top: 15px;
-    padding-bottom: 15px;
   }
   .navbar-area.is-sticky {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .ferry-responsive-nav {
     display: block;
@@ -1218,6 +1235,7 @@ Services Area
 =================================================*/
 .services-area {
   background: #301d44;
+  margin-top: -8px;
 }
 .services-area .section-title h2 {
   color: #ffffff;
@@ -1651,9 +1669,9 @@ Transportation Area
 .transportation-area .transportation-form .form-control::placeholder {
   color: #ffffff;
 }
-.form-btn{
+/* .form-btn{
   text-align: center;
- }
+ } */
 .transportation-area .transportation-form .mb-30 {
   margin-bottom: 45px;
 }
