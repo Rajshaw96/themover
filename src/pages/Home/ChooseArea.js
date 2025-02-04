@@ -81,7 +81,7 @@ const ChooseArea = () => {
                   consequuntur magni dolores eos qui ratione voluptatem sequi
                   nesciunt.
                 </p>
-                  <Link to="#" className="default-btn-one">Contact Us</Link>
+                  <Link to="/contact-us" className="default-btn-one">Contact Us</Link>
               
                 
                 <div className="shape-image">

@@ -80,7 +80,7 @@ const ServicesPage = () => {
                                 <p>At TheMover, we’ve been at the forefront of reliable and innovative shipping solutions since 1998. With over two decades of experience, we’ve evolved into a trusted name for seamless digital shipping services across India.</p>
                                 <p>From the very beginning, our mission has been to simplify the logistics process while maintaining the highest standards of efficiency, reliability, and customer satisfaction. Over the years, we have embraced cutting-edge technology to bring you fast, secure, and transparent shipping services, making your logistics experience better than ever.</p>
                             </div>
-                            <li className="default-btn-one"><Link to="/about-us">Read More</Link></li>
+                            <li className="default-btn-one text-w"><Link to="/about-us">Read More</Link></li>
                         </div>
 
                         <div className="col-lg-6">
