@@ -67,7 +67,7 @@ const ContactUs = () => {
             {/* End Contact Info */}
 
             {/* Contact Form Area */}
-            <div className="contact-form-area pb-100">
+            <div className="contact-form-area pb-5">
                 <div className="container">
                     <div className="section-title">
                         <span>Contact Us</span>

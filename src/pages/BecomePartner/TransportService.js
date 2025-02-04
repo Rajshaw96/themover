@@ -6,7 +6,7 @@ import image3 from '../../assets/img/TransportService/Logistics-6.avif';
 const TransportService = () => {
   return (
     <div className="transport-service-container">
-      <h2>Porter, your go-to goods transport service!</h2>
+      <h2 className='pb-4'>Porter, your go-to goods transport service!</h2>
 
       <div className="service-cards">
         <div className="service-card">

@@ -46,7 +46,7 @@ const AboutUs = () => {
       {/* End About Safe Area */}
 
       {/* About Info */}
-      <div className="about-info-area pb-70">
+      <div className="about-info-area pb-4">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-6">

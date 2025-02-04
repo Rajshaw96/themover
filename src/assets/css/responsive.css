@@ -1,4 +1,5 @@
 @media only screen and (max-width: 767px) {
+  
   .top-header {
     text-align: center;
     padding: 6px 0;
@@ -32,12 +33,12 @@
     text-align: center;
   }
   .hero-slider .banner-content h1 {
-    font-size: 28px;
+    font-size: 28px !important;
     margin-bottom: 10px;
-    line-height: 1.3;
+    line-height: 1.3 !important;
   }
   .hero-slider .banner-content span {
-    font-size: 13px;
+    font-size: 16px !important;
     margin-bottom: 5px;
   }
   .hero-slider .banner-content p {
@@ -45,8 +46,8 @@
     margin-bottom: 20px;
   }
   .hero-slider .hero-slider-item {
-    height: 100%;
-    padding: 200px 0 100px;
+    height: 360px !important;
+    padding: 92px 0 0 0;
   }
   .hero-slider.owl-theme .owl-nav .owl-prev, .hero-slider.owl-theme .owl-nav .owl-next {
     top: auto;
@@ -536,7 +537,7 @@
   }
   .digital-area .digital-card-contant {
     position: inherit;
-    padding: 30px 25px;
+    padding: 10px !important;
   }
   .digital-area .digital-card-contant::before {
     display: none;
@@ -1042,7 +1043,7 @@
   }
   .digital-area .digital-card-contant {
     position: inherit;
-    padding: 30px 25px;
+    padding: 10px !important;
   }
   .digital-area .digital-card-contant::before {
     display: none;
@@ -1278,7 +1279,7 @@
   }
   .digital-area .digital-card-contant {
     position: inherit;
-    padding: 30px 25px;
+    padding: 10px !important;
   }
   .digital-area .digital-card-contant::before {
     display: none;

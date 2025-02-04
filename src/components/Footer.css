@@ -1,0 +1,12 @@
+h2.fixed-head {
+  color: black !important;
+}
+.stat-card h2, .stat-card p.label{
+    color: black !important;
+}
+.theme-dark .desktop-menu li a{
+    color: white !important;
+}
+.theme-dark .navbar-area{
+    background-color: black !important;
+}

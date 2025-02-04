@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import '../../assets/styles/BecomePartner.css';
-import back from '../../assets/img/services/backImg.jpg';
+import back from '../../assets/img/services/backgroundImg.png';
 import TransportService from '../BecomePartner/TransportService';
 import PartnerSlider from "../BecomePartner/PartnerSlider";
+import ServiceFeatures from "./ServiceFeatures";
+import Services from "./Services";
 // import Testimonials from '../BecomePartner/Testimonials'
 const BecomePartner = () => {
   const [city, setCity] = useState("");
@@ -28,7 +30,7 @@ const BecomePartner = () => {
     <>
       <div className="min-h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: `url(${back})` }}>
         <div className="bg-white bg-opacity-90 p-8 rounded-lg shadow-lg max-w-lg w-full manish">
-          <h2 className="text-2xl font-bold text-center mb-6">Become a Partner</h2>
+          <h2 className="text-2xl font-bold text-center mb-6 fixed-head">Become a Partner</h2>
           <form className="space-y-4" onSubmit={handleSubmit}>
             <div className="grid grid-cols-2 gap-4">
               <input type="text" placeholder="Enter your full name" className="w-full p-2 border rounded-lg" required />
@@ -59,7 +61,9 @@ const BecomePartner = () => {
         </div>
       </div>
       <TransportService />
+      <ServiceFeatures/>
       <PartnerSlider />
+      <Services/>
       {/* <Testimonials/> */}
       <ToastContainer position="top-right" autoClose={3000} hideProgressBar closeOnClick pauseOnHover draggable />
     </>

@@ -14,7 +14,7 @@
         }
         
         .hero-slider .hero-slider-item.item-bg1 {
-          background-image: url("../../../src/assets/img/hero-slider/beenar-1.avif");
+          background-image: url("../../../src/assets/img/hero-slider/slider-img.jpg");
         }
         .hero-slider .hero-slider-item.item-bg2 {
           background-image: url("../../../src/assets/img/hero-slider/beenar-2.avif");
@@ -23,16 +23,16 @@
           background-image: url("../../../src/assets/img/hero-slider/beenar-3.avif");
         }
         .hero-slider .hero-slider-item.item-bg4 {
-          background-image: url("../../../src/assets/img/gallery/gallery-2.png");
+          background-image: url("../../../src/assets/img/hero-slider/slider-img5.jpg");
         }
         .hero-slider .hero-slider-item.item-bg5 {
-          background-image: url("../../../src/assets/img/gallery/gallery-3.png");
+          background-image: url("../../../src/assets/img/hero-slider/slider-img2.jpg");
         }
         .hero-slider .hero-slider-item.item-bg6 {
-          background-image: url("../../../src/assets/img/gallery/gallery-4.png");
+          background-image: url("../../../src/assets/img/hero-slider/slider-img3.jpg");
         }
         .hero-slider .hero-slider-item.item-bg7 {
-          background-image: url("../../../src/assets/img/gallery/gallery-5.png");
+          background-image: url("../../../src/assets/img/hero-slider/slider-img4.jpg");
         }
         
         .hero-slider .banner-content h1 {

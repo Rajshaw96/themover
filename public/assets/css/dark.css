@@ -63,12 +63,15 @@ Default CSS
   border-radius: 50%;
 }
 
-.theme-dark body {
-  background-color: #000000;
-  color: #f1f1f1;
+.theme-dark body , .theme-dark div.transport-service-container{
+  background-color: #000000 !important;
+  color: #f1f1f1 !important;
+}
+.theme-dark .desktop-menu li a{
+  color: white !important;
 }
 .theme-dark p {
-  color: #f1f1f1;
+  color: #f1f1f1 !important;
 }
 .theme-dark p a {
   color: #f1f1f1 !important;

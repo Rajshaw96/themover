@@ -1,0 +1,13 @@
+.width-giv {
+  max-width: 100%;
+  gap: 20px;
+}
+.width-giv img {
+  max-width: 60%;
+}
+.width-giv p {
+  margin-bottom: 20px;
+}
+.theme-dark p {
+  color: #f1f1f1 !important;
+}

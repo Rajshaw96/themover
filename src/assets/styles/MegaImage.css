@@ -58,7 +58,9 @@
     flex-direction: column;
     align-items: center;
   }
-
+  .mega-image-container {
+    margin-bottom: 10px;
+  }
   .city-image-container {
     max-width: 90%;
     margin-bottom: 20px;
