@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 // import shape3 from '../../assets/img/shape/shape3.png';
 import Gallery1 from '../../assets/img/gallery/gallery-1.png';
 import Gallery2 from '../../assets/img/gallery/gallery-2.png';
@@ -46,7 +47,7 @@ const ServicesArea = () => {
                 <i className='bx bxs-ship'></i>
                 <h3>OceanXpress</h3>
                 <p>Reliable and efficient ocean freight solutions to seamlessly transport your goods across international waters, ensuring timely deliveries with utmost safety.</p>
-                <a href="service-details.html" className="default-btn-two">Read More</a>
+                <Link to="/service-details.html" className="default-btn-one my-2">Read More</Link>
               </div>
             </div>
 
@@ -55,7 +56,7 @@ const ServicesArea = () => {
                 <i className='bx bx-store'></i>
                 <h3>StoreShip</h3>
                 <p>Your trusted partner for secure cargo storage. With flexible and safe storage solutions, StoreShip keeps your goods protected and ready for transport when you need them.</p>
-                <a href="service-details.html" className="default-btn-two">Read More</a>
+                <Link to="/service-details.html" className="default-btn-one my-2">Read More</Link>
               </div>
             </div>
 
@@ -64,7 +65,7 @@ const ServicesArea = () => {
                 <i className='bx bxs-truck'></i>
                 <h3>SpeedXpress</h3>
                 <p>Fast, reliable, and door-to-door courier delivery service. SpeedXpress ensures your packages reach their destination on time.</p>
-                <a href="service-details.html" className="default-btn-two">Read More</a>
+                <Link to="/service-details.html" className="default-btn-one my-2">Read More</Link>
               </div>
             </div>
 
@@ -73,7 +74,7 @@ const ServicesArea = () => {
                 <i className='bx bx-transfer'></i>
                 <h3>TradeLink</h3>
                 <p>A seamless B2B exchange platform for businesses to connect and trade efficiently. TradeLink helps you expand your network, manage transactions, </p>
-                <a href="service-details.html" className="default-btn-two">Read More</a>
+                <Link to="/service-details.html" className="default-btn-one my-2">Read More</Link>
               </div>
             </div>
           </div>
@@ -91,12 +92,12 @@ const ServicesArea = () => {
       {/* Gallery Section */}
       <div className="gallery-section ptb-100">
         <div className="container">
-            <div className="">
+            <div className="pb-5">
                 <h2 style={{textAlign:"center"}}>How We Works</h2>
                 <p style={{textAlign:"center"}}>Relocate In 4 Easy Steps</p>
                 <img src={WorkProces} alt="Shape" />
                 </div>
-          <div className="section-title">
+          <div className="section-title pt-2">
             <span>Gallery</span>
             <h2>Our Recent Work</h2>
           </div>
