@@ -3,62 +3,57 @@ import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import ServicesArea from "./ServicesArea";
 import ChooseArea from "./ChooseArea";
-import TransportationArea from './TransportationArea'
-import Counter from '../Home/Counter'
+import TransportationArea from "./TransportationArea";
+import Counter from "../Home/Counter";
 import MegaImage from "../../MainHeaderPages/MegaImage";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
- import '../../assets/styles/HeroSlider.css'
+import "../../assets/styles/HeroSlider.css";
+import ServiceHome from "./ServiceHome";
+import LogisticsSection from "./LogisticsSection";
 const HeroSlider = () => {
   const slides = [
     {
       id: 1,
       bgClass: "item-bg1",
       title: "Transport & Logistic Services 24x7 Support Available",
-      description:
-        "",
+      description: "",
     },
     {
       id: 2,
       bgClass: "item-bg2",
       title: "Reliable Logistic Support",
-      description:
-        "",
+      description: "",
     },
     {
       id: 3,
       bgClass: "item-bg3",
       title: "Efficient Freight & Transport Services  Round-the-Clock Support",
-      description:
-        "",
+      description: "",
     },
     {
       id: 4,
       bgClass: "item-bg4",
       title: "Fast & Safe Logistic Delivery  24x7 Availability",
-      description:
-        "",
+      description: "",
     },
     {
       id: 5,
       bgClass: "item-bg5",
       title: "Comprehensive Logistic Services  Available Anytime",
-      description:
-        "",
+      description: "",
     },
     {
       id: 6,
       bgClass: "item-bg6",
       title: "Reliable Transport & Logistic Solutions  24x7 Support",
-      description:
-        "",
+      description: "",
     },
     {
       id: 7,
       bgClass: "item-bg7",
       title: "Seamless Transportation Services Always Ready to Assist",
-      description:
-        "",
+      description: "",
     },
   ];
 
@@ -71,7 +66,6 @@ const HeroSlider = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     arrows: true,
-    
   };
 
   return (
@@ -108,10 +102,12 @@ const HomePage = () => {
     <>
       <HeroSlider />
       <ServicesArea />
-       <ChooseArea />
-       <Counter/>
-        <MegaImage/>
-      <TransportationArea/>
+      <LogisticsSection />
+      <ChooseArea />
+      <Counter />
+      <MegaImage />
+      <ServiceHome />
+      <TransportationArea />
     </>
   );
 };

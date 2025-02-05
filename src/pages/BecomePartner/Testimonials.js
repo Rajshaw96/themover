@@ -29,8 +29,8 @@ const Testimonials = () => {
     <div className="testimonials-area ptb-100">
       <div className="container">
         <div className="shape-two">
-          <img src="assets/img/shape/shape6.png" className="shape-1" alt="shape" />
-          <img src="assets/img/shape/shape3.png" alt="shape" />
+          <img src="assets/img/shape/shape6.png" className="shape-1" alt="shape1" />
+          <img src="assets/img/shape/shape3.png" alt="shape2" />
         </div>
         <div className="section-title">
           <span>Feedback</span>

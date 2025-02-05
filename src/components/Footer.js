@@ -80,7 +80,7 @@ const Footer = () => {
         <div className="container">
           <p>
             Copyright 2025. All Rights Reserved 
-            <a href="https://themover.in/" target="_blank" rel="noopener noreferrer">Themover</a>
+            <a href="https://themover.in/" target="_blank" rel="noopener noreferrer"> Themover</a>
           </p>
         </div>
       </div>
