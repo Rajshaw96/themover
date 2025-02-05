@@ -1,6 +1,7 @@
 import '../../assets/styles/StatsSection.css'; // Assuming styles are in a separate CSS file
 import React, { useState, useEffect } from 'react';
-
+import "../../assets/styles/Counter.css";
+import video from "../../assets/video/video1.mp4";
 const StatCard = ({ icon, count, label, target }) => {
     const [currentCount, setCurrentCount] = useState(0);
 
@@ -56,7 +57,7 @@ const StatsDashboard = () => {
         {
             icon: (
                 <svg
-                    xmlns=""
+                    xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     width="48"
                     height="48"
@@ -83,7 +84,16 @@ const StatsDashboard = () => {
 
     return (
         <div className="stats-dashboard">
-            <h2 className='header-counter'>OUR GROWING NETWORK</h2>
+            {/* Background Video */}
+            <div className="background-video">
+                <video autoPlay loop muted>
+                    <source src={video} type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div className='container'>
+            <h2 className="header-counter">OUR GROWING NETWORK</h2>
             <div className="stats-container">
                 {stats.map((stat, index) => (
                     <StatCard
@@ -94,6 +104,7 @@ const StatsDashboard = () => {
                         target={stat.target}
                     />
                 ))}
+            </div>
             </div>
         </div>
     );

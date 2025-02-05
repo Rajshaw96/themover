@@ -1,0 +1,8 @@
+@media screen and (max-width:767px) {
+    .custom-padd{
+        padding: 20px !important;
+    }
+    .custom-marg{
+        margin: 0px;
+    }
+}

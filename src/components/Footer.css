@@ -10,3 +10,9 @@ h2.fixed-head {
 .theme-dark .navbar-area{
     background-color: black !important;
 }
+h2.const-col , p .const-col, h5.const-col , p .const-col , .lead{
+    color: black !important;
+}
+.theme-dark .lead, .theme-dark .const-col{
+    color: black !important;
+}

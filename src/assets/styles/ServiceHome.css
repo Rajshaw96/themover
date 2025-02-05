@@ -11,8 +11,11 @@
 .theme-dark p {
   color: #f1f1f1 !important;
 }
-@media screen and (max-width:767px){
-  .change-gap{
+@media screen and (max-width: 767px) {
+  .change-gap {
     gap: 20px;
   }
+}
+.change-gap h2{
+    text-align: center;
 }

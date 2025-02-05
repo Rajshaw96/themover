@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Services.css"; // Add this file for custom styles
+import '../../assets/styles/ServiceHome.css'; // Add this file for custom styles
 import icon1 from "../../assets/img/icon/icon1.png";
 import icon2 from "../../assets/img/icon/icon2.png";
 import icon3 from "../../assets/img/icon/icon3.png";
@@ -23,7 +23,7 @@ const ServiceCard = ({ image, title, description }) => {
   );
 };
 
-const Services = () => {
+const ServiceHome = () => {
   const services = [
     {
       image: icon1,
@@ -40,27 +40,12 @@ const Services = () => {
         title: "Safe & Secure Packaging",
         description: "Professional packaging services to ensure goods' safety.",
       },
-    {
-      image: icon3,
-      title: "Warehouse Operation",
-      description: "Secure and organized warehousing for all goods.",
-    },
-    
-    {
-      image: icon5,
-      title: "Timely Delivery",
-      description: "Guaranteed on-time delivery with real-time tracking.",
-    },
-    {
-      image: icon6,
-      title: "Affordable Price",
-      description: "Price is Affordable.",
-    },
   ];
 
   return (
-    <div className="container pt-5 pb-3">
+    <div className="container  pb-3">
       <div className="row g-sm-4 change-gap">
+      <h2>Services</h2>
         {services.map((service, index) => (
           <ServiceCard key={index} {...service} />
         ))}
@@ -69,4 +54,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default ServiceHome;

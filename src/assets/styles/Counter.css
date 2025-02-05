@@ -1,0 +1,35 @@
+.stats-dashboard {
+  position: relative;
+  z-index: 1;/* Ensure the section takes up full height of the viewport */
+  overflow: hidden; /* Prevent overflow if video exceeds the section bounds */
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  object-fit: cover !important; /* Ensures the video covers the entire section without distorting */
+  z-index: -1; /* Keeps the video behind the content */
+}
+.background-video video{
+    width: 100%;
+    opacity: 0.4;
+}
+.header-counter {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  z-index: 2; /* Keeps the stats above the video */
+  padding: 20px;
+}
