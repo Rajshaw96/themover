@@ -11,6 +11,8 @@ import "slick-carousel/slick/slick-theme.css";
 import "../../assets/styles/HeroSlider.css";
 import ServiceHome from "./ServiceHome";
 import LogisticsSection from "./LogisticsSection";
+import CallToAction from "./CallToAction";
+import FlipBoxSection from "./FlipBox";
 const HeroSlider = () => {
   const slides = [
     {
@@ -103,6 +105,8 @@ const HomePage = () => {
       <Counter />
       <MegaImage />
       <ServiceHome />
+      <FlipBoxSection/>
+      <CallToAction/>
       {/* <TransportationArea /> */}
     </>
   );

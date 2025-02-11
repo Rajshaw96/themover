@@ -12,10 +12,9 @@
 
 .mega-image-container h2 {
   width: 100%;
-  font-size: 32px;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 30px; /* Adds space between the heading and images */
+  /* font-size: 32px; */
+  /* font-weight: bold; */
+  margin-bottom: 30px; 
 }
 
 /* City Image Container Styles */

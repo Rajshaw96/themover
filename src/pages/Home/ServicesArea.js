@@ -10,7 +10,7 @@ import Gallery6 from '../../assets/img/gallery/gallery-12.jpg';
 import Gallery7 from '../../assets/img/gallery/gallery-7.png';
 import Gallery8 from '../../assets/img/gallery/gallery-8.png';
 import Gallery9 from '../../assets/img/gallery/gallery-9.png';
-import WorkProces from '../../assets/img/gallery/work-process-web.png';
+import WorkProces from '../../assets/img/gallery/how.png';
 
 const ServicesArea = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -45,7 +45,7 @@ const ServicesArea = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="service-card">
                 <i className='bx bxs-ship'></i>
-                <h3>OceanXpress</h3>
+                <h4>OceanXpress</h4>
                 <p>Reliable and efficient ocean freight solutions to seamlessly transport your goods across international waters, ensuring timely deliveries with utmost safety.</p>
                 <Link to="/about-us" className="default-btn-one my-2">Read More</Link>
               </div>
@@ -54,7 +54,7 @@ const ServicesArea = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="service-card">
                 <i className='bx bx-store'></i>
-                <h3>StoreShip</h3>
+                <h4>StoreShip</h4>
                 <p>Your trusted partner for secure cargo storage. With flexible and safe storage solutions, StoreShip keeps your goods protected and ready for transport when you need them.</p>
                 <Link to="/about-us" className="default-btn-one my-2">Read More</Link>
               </div>
@@ -63,7 +63,7 @@ const ServicesArea = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="service-card">
                 <i className='bx bxs-truck'></i>
-                <h3>SpeedXpress</h3>
+                <h4>SpeedXpress</h4>
                 <p>Fast, reliable, and door-to-door courier delivery service. SpeedXpress ensures your packages reach their destination on time.</p>
                 <Link to="/about-us" className="default-btn-one my-2">Read More</Link>
               </div>
@@ -72,7 +72,7 @@ const ServicesArea = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="service-card">
                 <i className='bx bx-transfer'></i>
-                <h3>TradeLink</h3>
+                <h4>TradeLink</h4>
                 <p>A seamless B2B exchange platform for businesses to connect and trade efficiently. TradeLink helps you expand your network, manage transactions, </p>
                 <Link to="/about-us" className="default-btn-one my-2">Read More</Link>
               </div>
@@ -92,7 +92,7 @@ const ServicesArea = () => {
       {/* Gallery Section */}
       <div className="gallery-section ptb-100">
         <div className="container">
-            <div className="pb-5">
+            <div className="pb-5 text-center">
                 <h2 style={{textAlign:"center"}}>How We Works</h2>
                 <p style={{textAlign:"center"}}>Relocate In 4 Easy Steps</p>
                 <img src={WorkProces} alt="Shape" />

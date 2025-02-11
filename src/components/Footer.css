@@ -1,5 +1,5 @@
 h2.fixed-head {
-  color: black !important;
+  color: #555 !important;
 }
 .stat-card h2, .stat-card p.label{
     color: black !important;
@@ -10,9 +10,22 @@ h2.fixed-head {
 .theme-dark .navbar-area{
     background-color: black !important;
 }
-h2.const-col , p .const-col, h5.const-col , p .const-col , .lead{
+p .const-col, h5.const-col , p .const-col , .lead{
     color: black !important;
 }
 .theme-dark .lead, .theme-dark .const-col{
     color: black !important;
+}
+h2.const-col{
+    color: #555 !important;
+}
+a{
+    text-decoration: none !important;
+}
+.slick-prev:before {
+    content: '←';
+    color: #c90a63 !important;
+}
+.slick-next:before{
+    color: #c90a63 !important;
 }
