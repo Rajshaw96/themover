@@ -17,45 +17,45 @@ const HeroSlider = () => {
       id: 1,
       bgClass: "item-bg1",
       title: "Transport & Logistic Services 24x7 Support Available",
-      description: "",
+      description: "We provide seamless transportation and logistics solutions with round-the-clock support to ensure smooth and timely deliveries.",
     },
     {
       id: 2,
       bgClass: "item-bg2",
       title: "Reliable Logistic Support",
-      description: "",
+      description: "Count on our dependable logistics services to streamline your supply chain and enhance efficiency with minimal disruptions.",
     },
     {
       id: 3,
       bgClass: "item-bg3",
-      title: "Efficient Freight & Transport Services  Round-the-Clock Support",
-      description: "",
+      title: "Efficient Freight & Transport Services Round-the-Clock Support",
+      description: "Our freight and transport solutions guarantee fast, secure, and efficient deliveries with 24/7 customer assistance.",
     },
     {
       id: 4,
       bgClass: "item-bg4",
-      title: "Fast & Safe Logistic Delivery  24x7 Availability",
-      description: "",
+      title: "Fast & Safe Logistic Delivery 24x7 Availability",
+      description: "We prioritize speed and safety in our logistic deliveries, ensuring your goods reach their destination securely and on time.",
     },
     {
       id: 5,
       bgClass: "item-bg5",
-      title: "Comprehensive Logistic Services  Available Anytime",
-      description: "",
+      title: "Comprehensive Logistic Services Available Anytime",
+      description: "From warehousing to last-mile delivery, our comprehensive logistics solutions cater to all your transportation needs anytime, anywhere.",
     },
     {
       id: 6,
       bgClass: "item-bg6",
-      title: "Reliable Transport & Logistic Solutions  24x7 Support",
-      description: "",
+      title: "Reliable Transport & Logistic Solutions 24x7 Support",
+      description: "Experience top-notch transport and logistics services backed by our dedicated team, available 24/7 to assist you.",
     },
     {
       id: 7,
       bgClass: "item-bg7",
       title: "Seamless Transportation Services Always Ready to Assist",
-      description: "",
+      description: "We ensure smooth and hassle-free transportation services, making logistics management easier and more efficient for you.",
     },
-  ];
+  ];  
 
   const sliderSettings = {
     dots: false,
@@ -77,15 +77,12 @@ const HeroSlider = () => {
               <div className="d-table-cell">
                 <div className="container">
                   <div className="banner-content">
-                    <span>Since 1992</span>
+                    <span>Since 1998</span>
                     <h1>{slide.title}</h1>
                     <p className="description">{slide.description}</p>
-                    <Link to="/contact-us" className="default-btn-one me-3">
+                    <Link to="/contact-us" className="default-btn-one">
                       Contact Us
                     </Link>
-                    {/* <Link to="/services" className="default-btn-two">
-                      Our Services
-                    </Link>    */}
                   </div>
                 </div>
               </div>
@@ -107,7 +104,7 @@ const HomePage = () => {
       <Counter />
       <MegaImage />
       <ServiceHome />
-      <TransportationArea />
+      {/* <TransportationArea /> */}
     </>
   );
 };

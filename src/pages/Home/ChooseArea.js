@@ -1,8 +1,6 @@
 import React from "react";
-// import Shape2 from "../../assets/img/shape/shape2.png";
 import Shape5 from "../../assets/img/shape/shape5.png";
 import { Link } from "react-router-dom";
-
 
 const ChooseArea = () => {
   return (
@@ -14,16 +12,6 @@ const ChooseArea = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6">
-              <div className="choose-contant">
-                <div className="choose-card">
-                  <i class="bx bx-world"></i>
-                  <h3>Worldwide Service</h3>
-                  <p>
-                  We provide seamless international shipping services, ensuring your packages reach any destination quickly and safely. With a global network of logistics partners, we make worldwide delivery effortless.
-                  </p>
-                </div>
-              </div>
-
               <div className="choose-contant">
                 <div className="choose-card">
                   <i class="bx bxs-paper-plane"></i>
@@ -71,7 +59,6 @@ const ChooseArea = () => {
                 <p><b>Experience the best in logistics with us!</b></p>
                   <Link to="/contact-us" className="default-btn-one">Contact Us</Link>
               
-                
                 <div className="shape-image">
                   <img src="assets/img/shape/shape2.png" alt="icon" />
                 </div>

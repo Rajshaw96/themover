@@ -37,7 +37,7 @@
         
         .hero-slider .banner-content h1 {
           color: #ffffff;
-          font-size: 45px;
+          font-size: 30px;
           line-height: 1;
           margin-bottom: 5px;
         }
@@ -81,13 +81,13 @@
           font-size: 4px;
           font-weight: bold;
           line-height: 1.2px;
-          margin-bottom: 20px;
+          margin-bottom: 10px;
         }
         
         .banner-content p {
           font-size: 18px;
           line-height: 1.6;
-          margin-bottom: 30px;
+          margin-bottom: 10px;
         }
 
 

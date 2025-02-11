@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./ServiceArea.css";
-// import shape3 from '../../assets/img/shape/shape3.png';
 import Gallery1 from '../../assets/img/gallery/gallery-1.png';
 import Gallery2 from '../../assets/img/gallery/gallery-2.png';
 import Gallery3 from '../../assets/img/gallery/gallery-3.png';
@@ -81,7 +80,7 @@ const ServicesArea = () => {
           </div>
 
           <div className="view-btn">
-            <a href="/about-us" className="default-btn">View All</a>
+            <a href="/services" className="default-btn">View All</a>
           </div>
         </div>
         

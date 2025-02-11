@@ -36,14 +36,9 @@ const LogisticsSection = () => {
         {/* Service 1 - Transportation */}
         <div className="col-md-4 mb-4">
           <div className="card" data-aos="fade-up" data-aos-delay="400">
-            <img
-              src="https://via.placeholder.com/350x200"
-              alt="Transportation"
-              className="card-img-top"
-            />
             <div className="card-body">
-              <h5 className="card-title const-col">Transportation</h5>
-              <p className="card-text const-col">
+              <h5 className="card-title const-col text-center">Transportation</h5>
+              <p className="card-text const-col text-center">
                 We offer fast, reliable, and cost-effective transportation services to move your goods across
                 the country or internationally.
               </p>
@@ -54,14 +49,9 @@ const LogisticsSection = () => {
         {/* Service 2 - Warehousing */}
         <div className="col-md-4 mb-4">
           <div className="card" data-aos="fade-up" data-aos-delay="500">
-            <img
-              src="https://via.placeholder.com/350x200"
-              alt="Warehousing"
-              className="card-img-top"
-            />
             <div className="card-body">
-              <h5 className="card-title const-col">Warehousing</h5>
-              <p className="card-text const-col">
+              <h5 className="card-title const-col text-center">Warehousing</h5>
+              <p className="card-text const-col text-center">
                 Our state-of-the-art warehouses ensure that your goods are safely stored and well-managed, ready
                 for shipment at any time.
               </p>
@@ -72,14 +62,9 @@ const LogisticsSection = () => {
         {/* Service 3 - Inventory Management */}
         <div className="col-md-4 mb-4">
           <div className="card" data-aos="fade-up" data-aos-delay="600">
-            <img
-              src="https://via.placeholder.com/350x200"
-              alt="Inventory Management"
-              className="card-img-top"
-            />
             <div className="card-body">
-              <h5 className="card-title const-col">Inventory Management</h5>
-              <p className="card-text const-col">
+              <h5 className="card-title const-col text-center">Inventory Management</h5>
+              <p className="card-text const-col text-center">
                 Our inventory management system ensures accuracy and efficiency, helping you maintain optimal stock
                 levels at all times.
               </p>

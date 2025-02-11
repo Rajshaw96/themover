@@ -35,7 +35,6 @@ const Footer = () => {
                   <li><Link to="/about-us">About Us</Link></li>
                   <li><Link to="/services">Services</Link></li>
                   <li><Link to="#">Features</Link></li>
-                  <li><Link to="#">Cost Calculator</Link></li>
                   <li><Link to="#">Latest News</Link></li>
                 </ul>
               </div>
@@ -48,7 +47,6 @@ const Footer = () => {
                   <li><Link to="#">FAQ’s</Link></li>
                   <li><Link to="/privacy-policy">Privacy Policy</Link></li>
                   <li><Link to="/terms-condition">Terms & Conditions</Link></li>
-                  <li><Link to="#">Community</Link></li>
                   <li><Link to="/contact-us">Contact Us</Link></li>
                 </ul>
               </div>
@@ -59,7 +57,6 @@ const Footer = () => {
                 <h3>Contact Info</h3>
                 <ul className="info-list">
                   <li><i className="bx bxs-location-plus"></i> Sector 39, Gurugram, Haryana 122002</li>
-                  <li><i className="bx bxs-envelope"></i> <a href="mailto:info@themover.in">info@themover.in</a></li>
                   <li><i className="bx bxs-envelope"></i> <a href="mailto:support@themover.in">support@themover.in</a></li>
                   <li><i className="bx bxs-phone"></i> <a href="tel:+919136369036">+91 91363 69036</a></li>
                 </ul>

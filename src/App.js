@@ -7,8 +7,6 @@ import About from "./pages/About";
 import ContactUs from "./pages/ContactUs";
 import Blog from "./pages/Blog";
 import Services from "./pages/Service";
-// import ForEnterprise from "./MainHeaderPages/ForEnterprise";
-// import DeliveryPartners from "./MainHeaderPages/DeliveryPartners";
 import Support from "./MainHeaderPages/Support";
 import Estimate from "./MainHeaderPages/Estimate";
 import Megalmage from "./MainHeaderPages/MegaImage";
@@ -18,13 +16,6 @@ import BecomePartner from "./pages/BecomePartner/BecomePartner"
 const App = () => {
   return (
     <>
-      <div class="preloader">
-      <div class="d-table">
-          <div class="d-table-cell">
-            <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
-          </div>
-      </div>
-    </div>
     <Router>
       <div className="app">
         <Header />
@@ -34,14 +25,11 @@ const App = () => {
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/blog" element={<Blog/>} />
           <Route path="/services" element={<Services/>} />
-          {/* <Route path="/for-enterprise" element={<ForEnterprise/>} />
-          <Route path="/delivery-partners" element={<DeliveryPartners/>} /> */}
           <Route path="/support" element={<Support/>} />
           <Route path="/estimate" element={<Estimate/>} />
           <Route path="/megalmage" element={<Megalmage/>} />
           <Route path="/porter" element={<Porter/>} />
           <Route path="/become-partner" element={<BecomePartner/>} />
-         
           {/* Add more routes as needed */}
         </Routes>
         <Footer />

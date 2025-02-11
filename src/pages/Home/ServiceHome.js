@@ -16,7 +16,7 @@ const ServiceCard = ({ image, title, description }) => {
         <div className="overlay">
           <h4 className="text-black fw-bold">{title}</h4>
           <p className="text-black">{description}</p>
-          <Link to="/about-us" className="default-btn-one">Read More</Link>
+          <Link to="/Services" className="default-btn-one">Read More</Link>
         </div>
       </div>
     </div>
