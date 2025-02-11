@@ -79,7 +79,6 @@ const HeroSlider = () => {
                   <div className="banner-content">
                     <span>Since 1998</span>
                     <h1>{slide.title}</h1>
-                    <p className="description">{slide.description}</p>
                     <Link to="/contact-us" className="default-btn-one">
                       Contact Us
                     </Link>
