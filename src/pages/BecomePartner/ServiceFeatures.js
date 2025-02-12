@@ -22,13 +22,13 @@ const ServiceFeatures = () => {
 
   return (
     <div className="container text-center my-5">
-      <h2 className="fw-bold mb-4">Porter Services</h2>
+      <h2 className=" mb-4">Porter Services</h2>
       <div className="row justify-content-center">
         {features.map((feature, index) => (
           <div className="col-md-4 col-sm-12" key={index}>
             <div className="feature-card p-4">
               <div className="icon mb-3">{feature.icon}</div>
-              <h5 className="fw-bold">{feature.title}</h5>
+              <h4 className="">{feature.title}</h4>
               <p>{feature.description}</p>
             </div>
           </div>

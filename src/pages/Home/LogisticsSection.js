@@ -27,7 +27,7 @@ const LogisticsSection = () => {
         <h2 className="const-col" data-aos="fade-up" >
           Our Logistics Services
         </h2>
-        <p className="lead const-col" data-aos="fade-up" data-aos-delay="300" >
+        <p className="const-col" data-aos="fade-up" data-aos-delay="300" >
           We offer end-to-end logistics solutions to meet all your supply chain needs.
         </p>
       </div>
@@ -35,9 +35,9 @@ const LogisticsSection = () => {
       <div className="row">
         {/* Service 1 - Transportation */}
         <div className="col-md-4 mb-4">
-          <div className="card" data-aos="fade-up" data-aos-delay="400">
+          <div className="card"style={{border: "1px solid #460b85"}} data-aos="fade-up" data-aos-delay="400">
             <div className="card-body">
-              <h5 className="card-title const-col text-center">Transportation</h5>
+              <h4 className="const-col text-center">Transportation</h4>
               <p className="card-text const-col text-center">
                 We offer fast, reliable, and cost-effective transportation services to move your goods across
                 the country or internationally.
@@ -48,9 +48,9 @@ const LogisticsSection = () => {
 
         {/* Service 2 - Warehousing */}
         <div className="col-md-4 mb-4">
-          <div className="card" data-aos="fade-up" data-aos-delay="500">
+          <div className="card" style={{border: "1px solid #460b85"}} data-aos="fade-up" data-aos-delay="500">
             <div className="card-body">
-              <h5 className="card-title const-col text-center">Warehousing</h5>
+              <h4 className="const-col text-center">Warehousing</h4>
               <p className="card-text const-col text-center">
                 Our state-of-the-art warehouses ensure that your goods are safely stored and well-managed, ready
                 for shipment at any time.
@@ -61,9 +61,9 @@ const LogisticsSection = () => {
 
         {/* Service 3 - Inventory Management */}
         <div className="col-md-4 mb-4">
-          <div className="card" data-aos="fade-up" data-aos-delay="600">
+          <div style={{border: "1px solid #460b85"}} className="card" data-aos="fade-up" data-aos-delay="600">
             <div className="card-body">
-              <h5 className="card-title const-col text-center">Inventory Management</h5>
+              <h4 className="const-col text-center">Inventory Management</h4>
               <p className="card-text const-col text-center">
                 Our inventory management system ensures accuracy and efficiency, helping you maintain optimal stock
                 levels at all times.

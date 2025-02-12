@@ -14,7 +14,7 @@ const ServiceCard = ({ image, title, description }) => {
       <div className="service-card width-giv position-relative">
         <img src={image} alt={title} className="img-fluid" />
         <div className="overlay">
-          <h4 className="text-black fw-bold">{title}</h4>
+          <h4 className="">{title}</h4>
           <p className="text-black">{description}</p>
           <Link to="/Services" className="default-btn-one">Read More</Link>
         </div>

@@ -30,7 +30,7 @@ const BecomePartner = () => {
     <>
       <div className="min-h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: `url(${back})` }}>
         <div className="bg-white bg-opacity-90 p-8 rounded-lg shadow-lg max-w-lg w-full manish">
-          <h2 className="text-2xl font-bold text-center mb-6 fixed-head">Become a Partner</h2>
+          <h2 className="text-center mb-6 fixed-head">Become a Partner</h2>
           <form className="space-y-4" onSubmit={handleSubmit}>
             <div className="grid grid-cols-2 gap-4">
               <input type="text" placeholder="Enter your full name" className="w-full p-2 border rounded-lg" required />
@@ -56,7 +56,7 @@ const BecomePartner = () => {
               </select>
             </div>
             <textarea placeholder="Tell us about your business..." className="w-full p-2 border rounded-lg" rows="4" required></textarea>
-            <button type="submit" className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">Submit</button>
+            <button style={{border: "none", marginTop: "5px"}} type="submit" className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">Submit</button>
           </form>
         </div>
       </div>
