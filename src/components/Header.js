@@ -6,7 +6,7 @@ import "./Header.css";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
@@ -34,6 +34,8 @@ const Header = () => {
               <ul className="right-info d-flex gap-3">
                 <li><Link to="/become-partner">Become A Partner</Link></li>
                 <li><a href="https://portal.themover.in/" target="_blank">Login</a></li>
+                <Link to="/register" onClick={() => setIsMenuOpen(false)}>Register</Link>
+
               </ul>
             </div>
           </div>
@@ -45,7 +47,7 @@ const Header = () => {
         <div className="container">
           <nav className="navbar">
             <Link className="navbar-brand" to="/">
-              <img src={themoverLogo} alt="logo" className="main-logo" />
+              <img src={themoverLogo} alt="logo" className="main-logo"/>
             </Link>
             <ul className="desktop-menu">
               <li><Link to="/">Home</Link></li>

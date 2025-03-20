@@ -1,12 +1,8 @@
 import React from "react";
-
 import '../../assets/styles/ServiceHome.css'; // Add this file for custom styles
 import icon1 from "../../assets/img/icon/icon1.png";
 import icon2 from "../../assets/img/icon/icon2.png";
-import icon3 from "../../assets/img/icon/icon3.png";
 import icon4 from "../../assets/img/icon/icon4.png";
-import icon5 from "../../assets/img/icon/icon5.png";
-import icon6 from "../../assets/img/icon/icon6.png";
 import { Link } from "react-router-dom";
 const ServiceCard = ({ image, title, description }) => {
   return (
