@@ -7,12 +7,6 @@ import Porter4 from '../assets/assert/Img-4.webp';
 import { Link } from 'react-router-dom';
 
 function Porter() {
-//   const [isEstimateOpen, setIsEstimateOpen] = useState(false);
-
-//   const handleEstimateClick = () => {
-//     setIsEstimateOpen(!isEstimateOpen);
-//   };
-
   return (
     <div className="porter-container">
       <div className="city-selector">
@@ -69,42 +63,8 @@ function Porter() {
               strokeLinejoin="round"
             />
           </svg>
-      </Link>
-
-        {/* <button className="estimate-button" onClick={handleEstimateClick}>
-          Get an estimate
-          <span className="estimate-time">(takes ~2 mins)</span>
-          <svg
-            width="50"
-            height="50"
-            viewBox="0 0 20 20"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M5 10H15"
-              stroke="#fff"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            <path
-              d="M10 5L15 10L10 15"
-              stroke="#fff"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </button> */}
+      </Link> 
       </div>
-
-      {/* {isEstimateOpen && (
-        <div className="estimate-content">
-          <h3>Estimate Details</h3>
-          <p>Please provide the necessary information to calculate an estimate.</p>
-        </div>
-      )} */}
     </div>
   );
 }

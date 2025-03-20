@@ -95,6 +95,10 @@
   .desktop-menu {
     display: none;
   }
+  .navbar {
+   margin-bottom: 12px;
+   
+  }
   .mobile-menu-icon {
     display: block;
     font-size: 24px;

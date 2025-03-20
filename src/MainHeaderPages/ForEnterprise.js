@@ -1,9 +1,7 @@
 import React from 'react';
-// Import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Porter from './Porter';
-
 import '../assets/styles/ForEnterprise.css';
 // Import images
 import image1 from "../assets/img/hero-slider/hero-slider1.jpg";

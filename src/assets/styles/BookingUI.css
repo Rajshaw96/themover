@@ -1,0 +1,111 @@
+/* BookingUI.css */
+
+body {
+          font-family: 'Arial', sans-serif; /* Set a more modern font */
+          background-color: #f4f7f9; /* Light background for contrast */
+          margin: 0;
+          padding: 0;
+        }
+        
+        .main-div {
+          max-width: 600px; /* Limit the form's maximum width */
+          margin: 40px auto; /* Center the form with margin on top */
+          padding: 20px; /* Add padding around the form */
+          background-color: #ffffff; /* White background for the form */
+          border-radius: 8px; /* Rounded corners */
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+        }
+        
+        /* Location dropdown styling */
+        .location {
+          display: flex; /* Use flexbox for layout */
+          align-items: center; /* Align vertically center */
+          margin-bottom: 20px; /* Spacing below the location */
+        }
+        
+        .icon {
+          font-size: 24px; /* Size for the location icon */
+          margin-right: 10px; /* Space between icon and dropdown */
+        }
+        
+        .city-dropdown-name {
+          flex-grow: 1; /* Allow dropdown to fill available space */
+          border: 1px solid #ccc; /* Border around the dropdown */
+          border-radius: 4px; /* Rounded corners */
+          padding: 10px; /* Padding inside dropdown */
+          font-size: 16px; /* Increased font size for better readability */
+        }
+        
+        /* Container for the form */
+        .container {
+          display: flex;
+          flex-direction: column; /* Stack inputs vertically */
+        }
+        
+        /* Form group styling */
+        .form-group {
+          margin-bottom: 15px; /* Space between form groups */
+        }
+        
+        label {
+          display: block; /* Make label block element */
+          margin-bottom: 5px; /* Space between label and input */
+          font-weight: bold; /* Bold label text */
+        }
+        
+        /* Input and select styling */
+        input[type="text"],
+        .select {
+          width: 100%; /* Fill the full width */
+          border: 1px solid #ccc; /* Border for inputs */
+          border-radius: 4px; /* Rounded corners */
+          padding: 10px; /* Padding inside input */
+          font-size: 16px; /* Increased font size */
+        }
+        
+        /* Service lift styling */
+        .service-lift {
+          display: flex; /* Use flexbox for alignment */
+          align-items: center; /* Align checkbox and label */
+          margin-top: 5px; /* Spacing above the service lift */
+        }
+        
+        .service-lift input[type="text"] {
+          margin-left: 10px; /* Space between checkbox and floor input */
+          width: 100px; /* Fixed width for floor input */
+        }
+        
+        /* Button styling */
+        .estimate-btn {
+          padding: 12px; /* Padding for button */
+          font-size: 16px; /* Consistent button font size */
+          background-color: #007bff; /* Button color */
+          color: white; /* Button text color */
+          border: none; /* Remove border */
+          border-radius: 4px; /* Rounded button corners */
+          cursor: pointer; /* Change cursor on hover */
+          transition: background-color 0.3s; /* Smooth background color change */
+          align-self: flex-end; /* Align button to the right */
+        }
+        
+        .estimate-btn:hover {
+          background-color: #0056b3; /* Darker shade on hover */
+        }
+        
+        /* Responsive styles */
+        @media (max-width: 600px) {
+          .main-div {
+            margin: 20px; /* Reduce margin on mobile */
+            padding: 15px; /* Adjust padding */
+          }
+        
+          .service-lift input[type="text"] {
+            width: 80px; /* Adjust floor input width on mobile */
+          }
+        
+          .estimate-btn {
+            font-size: 18px; 
+           margin-top: 10px;
+          }
+        }
+        

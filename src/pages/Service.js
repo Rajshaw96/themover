@@ -17,7 +17,7 @@ const ServicesPage = () => {
                                 <ul>
                                     <p>Experience the convenience and reliability of TheMover for all your relocation and parcel needs.</p>
                                     <li><Link to="/">Home</Link></li>
-                                    <li>Services work</li>
+                                    <li>Services</li>
                                 </ul>
                             </div>
                         </div>
